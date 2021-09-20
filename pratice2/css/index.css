@@ -1,0 +1,136 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 220px;
+}
+
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.newflash .new {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.newflash .new-hd {
+    height: 33px;
+    padding: 7px 15px 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.newflash .new-hd h4 {
+    float: left;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+}
+
+.newflash .new-hd .more {
+    float: right;
+}
+
+.newflash .new-bd ul li a {
+    display: block;
+    padding-left: 15px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.newflash .new-bd ul li a span {
+    font-weight: 700;
+}
+
+.newflash .lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.newflash .lifeservice ul {
+    width: 252px;
+    height: 284px;
+}
+
+.newflash .lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.newflash .lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -17px -16px;
+}
+
+.newflash .lifeservice ul li:nth-child(2) {
+    position: relative;
+}
+
+.newflash .lifeservice ul li:nth-child(2) img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.newflash .bargain {
+    margin-top: 5px;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 11px;
+}
+
+.recom-hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    line-height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recom-bd {
+    float: left;
+    width: 994px;
+    height: 163px;
+    background-color: #ebebeb;
+    padding: 10px 1px 0 1px;
+}
+
+.recom-bd ul li {
+    float: left;
+}
+
+.recom-bd ul li:nth-child(-n+3) {
+    position: relative;
+    margin-right: 1px;
+}
+
+.recom-bd ul li:nth-child(-n+3)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 1px;
+    height: 100%;
+    background-color: #ddd;
+}
